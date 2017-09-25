@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz Assignment</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="main.js"></script>
+</head>
+    <body>
+    
+    <h1>Movies  Quiz! </h1>
+        <form id="quiz" name="quiz">
+        <p>How many Oscars did the film Titanic win?</p>
+        <input id="textbox" type="text" name="question1">
+             
+            <p>Who has won the most Academy Awards?</p> 
+            <input id="mc" type="radio" name="question2" value="Katherine Hepburn"> Katherine Hepburn<br>
+             <input id="mc" type="radio" name="question2" value="James Cameron"> James Cameron<br>
+             <input id="mc" type="radio" name="question2" value="Walt Disney"> Walt Disney<br>
+            
+            <p>Who are the makers of Finding Nemo?</p> 
+             <input id="mc" type="radio" name="question3" value="Pixar"> Pixar<br>
+            <input id="mc" type="radio" name="question3" value="Warner Brothers"> Warner Brothers<br>
+             <input id="mc" type="radio" name="question3" value="Walt Disney"> Walt Disney<br>
+             
+            
+            <input id="button" type="button" value="DONE!" onclick="check();">
+        
+        </form>
+        <div id="after-submit">
+         <p id="message"></p>
+            <img id="pictures">
+        <p id="number-correct"></p>
+        </div>
+    </body>
+</html>
