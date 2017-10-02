@@ -1,0 +1,35 @@
+body{
+    background-color: lightsteelblue;
+      font-family: "Montserrat", sans-serif;
+}
+p, input, button {
+  \
+  font-size: 15px;
+}
+input {
+  width: 150px;
+}
+#textbox{
+  
+    padding-left: 10px;
+    height: 20px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+div{
+    margin: 50px 30px  50px 30px;
+}
+h1{
+    margin-left: 70px;
+    
+}
+#ques{
+    margin-left: 70px;
+}
+#answerButton{
+font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: #f8f8f8;
+  background-color: #f16059;
+  border-radius: 5px;
+}
