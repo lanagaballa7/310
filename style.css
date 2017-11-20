@@ -1,0 +1,46 @@
+body{
+    background-color: #e0d5df;
+    font-family: 'Quicksand', sans-serif;
+}
+h1{
+    color: #a59ba4;
+   font-family: 'Sacramento', cursive;
+    font-size: 4em;
+    text-align: center;
+       
+}
+ul{
+    list-style: none;
+    text-align: center;
+    margin-right: 4%;
+
+}
+li{
+    display: inline;
+   margin:4%;
+   
+}
+li a{
+    color: white;
+}
+div p{
+    margin: 0 auto;
+    width: 470px;
+    font-size: 18px;
+    line-height: 1.5em;
+    font-family: 'Quicksand', sans-serif;
+    color: slategray;
+}
+div{
+    margin-top: 7%;
+    
+}
+p a{
+line-height: 1.5em;
+    text-decoration: none;
+    font-size:16px;
+    
+}
+.assignment{
+    margin: 0 auto;
+}
