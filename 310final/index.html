@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Final Project</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+     <link rel="stylesheet" href="/maps/documentation/javascript/demos/demos.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/default.min.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/tomorrow.min.css">
+
+</head>
+<body>
+<h1>Sneak Peek Videos</h1>
+    <h3>Press on the country you want to learn more about and watch a quick timelapse video of it's beauty</h3>
+
+<!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
+
+	<div id="map" id="play"></div>
+    
+    
+<div id="video-placeholder"></div>
+
+
+
+<div id="controls">
+
+    <ul>
+
+
+        <li>
+
+            
+
+            <p><span id="current-time">0:00</span> / <span id="duration">0:00</span></p>
+
+            
+
+        </li>
+
+        <li>
+
+           
+
+            <input type="range" id="progress-bar" value="0">
+
+           <h4>Progress Bar</h4>
+        </li>
+
+        <li>
+
+
+            <i id="play" class="material-icons">play_arrow</i>
+
+            
+        </li>
+
+        <li>
+
+
+            <i id="pause" class="material-icons">pause</i>
+
+            
+        </li>
+
+        <li>
+
+            <i id="mute-toggle" class="material-icons">volume_up</i>
+
+           
+        </li>
+
+        <li>
+
+            
+            <input id="volume-input" type="number" max="100" min="0">
+
+            <h4>Set volume</h4>
+        </li>
+
+        <li>
+
+            <select id="speed">
+                <option>0.25</option>
+                <option>0.5</option>
+                <option selected="selected">1</option>
+                <option>1.5</option>
+            <option>2</option>
+            </select>
+
+            <h4>Speed</h4>
+        
+        </li>
+
+        <li>
+
+        
+            <select id="quality">
+                <option>small</option>
+                <option>medium</option>
+                <option selected="selected">large</option>
+                <option>hd720</option>
+                <option>hd1080</option>
+            <option>highres</option>
+            </select>
+<h4>Quality</h4>
+            
+        </li>
+
+<!--
+        <li>
+
+            <h4>Playlist Next</h4>
+            <i id="next" class="material-icons">fast_forward</i>
+
+           
+        </li>
+
+        <li>
+
+            <h4>Playlist Previous</h4>
+            <i id="prev" class="material-icons">fast_rewind</i>
+
+            
+        </li>
+-->
+        
+        
+        <div id="TWDb5MhjyoE S_dfq9rFWAE 4Ot0T4iCXfM AXAT3ZD3e5k HFIEwpbOWak rUg_K15tumI">
+           
+        </div>
+
+    </ul>
+
+</div>
+
+
+   
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
+<script src="https://www.youtube.com/iframe_api"></script>
+<script src="script.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC8Ow3iAr0iK1xV38xyA4XC-Wr4tOIjs8E&callback=initMap"
+async defer></script>
+<!-- Demo ads. Please ignore and remove. -->
+<script src="http://cdn.tutorialzine.com/misc/enhance/v3.js" async></script>
+
+</body>
+</html>
